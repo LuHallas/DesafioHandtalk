@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #2e2e2e;
+  background-color: #ffffff;
+}
+
+body.dark-mode {
+  color: #ffffff;
+  background-color: #2e2e2e;
+}
+
+.primary-btn {
+  background-color: #cc5e05;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.s_about,
+.project-content,
+.s_posts {
+  background-color: #FFFFFF;
+  border-color: #DDD;
+}
+
+body.dark-mode .s_about,
+body.dark-mode .project-content,
+body.dark-mode .s_posts {
+  background-color: #444;
+  border-color: #555;
+}
+
+body.dark-mode .s_about,
+body.dark-mode .project-content,
+body.dark-mode .s_posts {
+  background-color: #333;
+  border-color: #666;
+}
+
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode p {
+  color: #e0e0e0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+span,
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+.primary-btn {
+  background-color: #cc5e05;
+  border-radius: 4px;
+}
+
+main {
+  padding: 24px;
+}
+
+section {
+  margin-bottom: 64px;
+}
+
+@media (min-width: 1024px) {
+  section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40vw;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.primary-btn:hover {
+  background-color: #cc5e05;
+}
+
+.s_profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.s_about {
+  padding: 32px 24px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.s_about div {
+  margin-top: 32px;
+}
+
+.s_about p {
+  text-align: left;
+  width: 80%;
+}
+
+.list-container ul {
+  list-style: none;
+  padding: 0 0 0 1rem;
+  margin: 0;
+}
+
+.list-container ul li {
+  margin-bottom: 0.5rem;
+}
+
+.s_projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-content {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  padding: 32px 24px;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project-content img {
+  width: 100%;
+  height: 118px;
+  object-fit: cover;
+}
+
+.project-content h3 {
+  text-align: center;
+}
+
+.project-content button {
+  width: fit-content;
+}
+
+.s_posts {
+  padding: 32px 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s_posts ul {
+  list-style: none;
+  margin-bottom: 32px;
+  padding: 0 8px;
+}
+
+.s_posts li {
+  margin-top: 16px;
+}
